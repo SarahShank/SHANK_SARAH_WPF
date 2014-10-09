@@ -5,4 +5,5 @@ Expressions_Assignment_Personal Week 2
 10-8-2014
 */
 
-alert("Test");
+//alert("Test");
+//ask the user
