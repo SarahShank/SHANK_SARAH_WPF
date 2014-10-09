@@ -22,3 +22,6 @@ console.log("Approximately " + tilesNeeded + " tiles are needed.");
 //Alerts the user with the (result) of approximate tiles needed.
 var result = "The total tiles needed for your room is approximately  " + tilesNeeded;
 alert(result);
+//arrays
+var worksForAnyRoom = ["Bedroom", "Bathroom", "Kitchen", "Den", "Living room"];
+console.log(worksForAnyRoom[3]);
