@@ -4,15 +4,17 @@
  Expressions_Assignment_Personal Week 2
  10-8-2014
  */
-
-//Calculating Mega bytes per second.
+//Calculating the users download speed
+//Speaking to the user using an alert
+var speakingUser;
+speakingUser = ("Hello User \nLet's Calculate Your Download Speed");
+alert (speakingUser);
 //Asking the user to enter file size.
-var fileSize = prompt("Please enter your file size");
+var fileSize = prompt("Please enter the size of your file");
 //Asking the user to enter internet speed.
 var internetSpeed = prompt("Please enter your internet speed");
 //Asking the user to enter battery percentage.
 var batteryCharge = prompt("Please enter your battery percentage");
-
 //Calculating the information
 var downLoadSpeed = fileSize / internetSpeed;
 var downLoadSpeed = downLoadSpeed + +batteryCharge;
