@@ -1,16 +1,18 @@
 /*
+ /*
  Sarah Shank
- WPF Section 01
+ WPF WDD144-O Section 01
  Expressions_Assignment_Personal Week 2
  10-8-2014
  */
+
 //Calculating the users download speed
 //Speaking to the user using an alert
 var speakingUser;
-speakingUser = ("Hello User \nLet's Calculate Your Download Speed");
+speakingUser = ("Hello User \nLet's Calculate Your Download Speed.");
 alert (speakingUser);
 //Asking the user to enter file size.
-var fileSize = prompt("Please enter the size of your file");
+var fileSize = prompt("Please enter the size of your file.");
 //Asking the user to enter internet speed.
 var internetSpeed = prompt("Please enter your internet speed");
 //Asking the user to enter battery percentage.
@@ -40,4 +42,6 @@ var charge1 = "Battery Charge ";
 var charge2 = "45%";
 //Printing increments to console.log
 var result = charge1 + charge2
+alert ("Your download speed is " +downLoadSpeed +" mega bytes per second.")
 console.log(result);
+

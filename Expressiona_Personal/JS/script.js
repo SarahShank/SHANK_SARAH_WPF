@@ -1,9 +1,10 @@
-/*
-Sarah Shank
-WPF Section 01
-Expressions_Assignment_Personal Week 2
-10-8-2014
-*/
+
+ /*
+ Sarah Shank
+ WPF WDD144-O Section 01
+ Expressions_Assignment_Personal Week 2
+ 10-8-2014
+ */
 
 //How much tile will I need for my room?
 alert ("We are calculating the total amount of tile needed for your room");
