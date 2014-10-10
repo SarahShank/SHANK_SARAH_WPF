@@ -10,7 +10,7 @@ alert ("Click OK if you are a human.");
 //User is human.
 alert ("The average human produces 1.25 liters of saliva per day.")
 var saliva = (1.25);
-//Telling user how much saliva is produced per day. (Example = 12)
+//Telling user how much saliva is produced per day.
 var days = prompt("Please enter how many days are in a week.");
 //Asking the user for the amount of days in a week (Example = 7)
 var weeks = prompt ("Please enter the amount of weeks in a year.");
