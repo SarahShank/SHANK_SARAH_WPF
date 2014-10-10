@@ -26,7 +26,7 @@ alert("Gross!")
 alert("Please rate the wackiness of this Javascript.")
 //expressions with arrays to calculate total.
 var wacky = [100, 100, 100];
-//calculating array in js
+//calculating array
 var total = wacky[0] + wacky[1] + wacky[2];
 //total
 var total = total/3
