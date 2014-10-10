@@ -19,7 +19,7 @@ var batteryCharge = prompt("Please enter your battery percentage");
 var downLoadSpeed = fileSize / internetSpeed;
 var downLoadSpeed = downLoadSpeed + +batteryCharge;
 //console.log (downLoadSpeed); prints to the console.
-console.log(downLoadSpeed + " Mega bytes per second. \n Approximate download speed.");
+console.log(downLoadSpeed + " Mega bytes per second. \nApproximate download speed.");
 //Printing increments to console.log
 var example = "Increment Examples Below";
 console.log(example);
