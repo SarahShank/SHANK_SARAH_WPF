@@ -28,7 +28,7 @@ alert("Please rate the wackiness of this Javascript.")
 var wacky = [100, 100, 100];
 //calculating array
 var total = wacky[0] + wacky[1] + wacky[2];
-//total array results
+//total array results.
 var total = total/3
 //alerting the user about results.
 alert(total +"%" + " percent")
