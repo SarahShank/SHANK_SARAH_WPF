@@ -22,7 +22,7 @@ console.log("Approximately " + salivaProduced + " are produced in your mouth per
 alert("You produce " +salivaProduced + " of saliva per year!");
 //alerting the user.
 alert("Gross!")
-//alerting the user in js
+//alerting the user in
 alert("Please rate the wackiness of this Javascript.")
 //expressions with arrays to calculate total.
 var wacky = [100, 100, 100];
