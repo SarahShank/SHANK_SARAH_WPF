@@ -1,9 +1,12 @@
+/**
+ * Created by SarahShank on 10/9/14.
+ */
 /*
-Sarah Shank
-WPF Section 01
-Expressions_Assignment_Personal Week 2
-10-8-2014
-*/
+ Sarah Shank
+ WPF Section 01
+ Expressions_Assignment_Personal Week 2
+ 10-8-2014
+ */
 
 //How much tile will I need for my room?
 alert ("We are calculating the total amount of tile needed for your room");
@@ -21,6 +24,9 @@ var tilesNeeded = roomWidth * roomLength / tileSize;
 console.log("Approximately " + tilesNeeded + " tiles are needed for your selected room.");
 //Alerts the user with the (result) of approximate tiles needed.
 var room = prompt ("please enter the room we are calculating");
-var result = "The total amount of tiles needed for your " + room +" is approximately " + tilesNeeded;
+var result = "The total tiles needed for your " + room +" is approximately " + tilesNeeded;
 alert(result);
+
+
+
 
