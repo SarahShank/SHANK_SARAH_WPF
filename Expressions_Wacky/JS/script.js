@@ -8,11 +8,12 @@
 //How much saliva do you produce a year?
 alert ("Click OK if you are a human.");
 //User is human.
+// Telling user how much saliva is produced per day.
 alert ("The average human produces 1.25 liters of saliva per day.")
 var saliva = (1.25);
-//Telling user how much saliva is produced per day.
+//Asking the user how many days are in a week.
 var days = prompt("Please enter how many days are in a week.");
-//Asking the user for the amount of days in a week (Example = 7)
+//Asking the user for the amount of weeks in a year.
 var weeks = prompt ("Please enter the amount of weeks in a year.");
 //Calculate the information.
 var salivaProduced = saliva * days * weeks +" liters";
