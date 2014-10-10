@@ -7,7 +7,7 @@
 
 //How much saliva do you produce a year?
 alert ("Click OK if you are a human.");
-//User is human. (Example = 12)
+//User is human.
 alert ("The average human produces 1.25 liters of saliva per day.")
 var saliva = (1.25);
 //Telling user how much saliva is produced per day. (Example = 12)
