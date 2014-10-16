@@ -38,18 +38,22 @@ if(dinnerChoices[1] === "Italian"){
 
     iWantToEat++;
 
-    console.log("Not Feeling Italian")
-}
+    console.log("Not feeling italian");
 
-else if(dinnerChoices[2] === "Oriental"){
+
+}else if(dinnerChoices[2] === "Oriental"){
 
     iWantToEat++;
 
-    console.log("Not feeling oriental")
+    console.log("Not feeling oriental");
 
 }else{
 
 if(dinnerChoices[3] === "Indian"){
+
+    iWantToEat++;
+
+    console.log("Not feeling indian");
 
 }
 
