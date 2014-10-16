@@ -1,3 +1,6 @@
+/**
+ * Created by SarahShank on 10/16/14.
+ */
 /*
  Sarah Shank
  WPF WDD144-O Section 01
@@ -37,5 +40,3 @@ alert(total +"%" + " percent")
 alert("No! You didn't get a choice!")
 //printing results to console.log
 console.log("Grade "+ total +"%");
-
-

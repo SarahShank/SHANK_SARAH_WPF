@@ -32,6 +32,20 @@ var knockKnock= "YES";
 knockKnock = prompt("Would you like another joke? \n **CASE SENSITIVE** \n YES or NO");
 //using a ternary to foresee the outcome
 (knockKnock == "YES") ? console.log(" Knock, Knock! \n Who's there? \n Yah.\n Yah who \n No Thanks I use Google!"):console.log("Party Pooper!");
+alert("Please rate the wackiness of this Javascript.")
+//expressions with arrays to calculate total.
+var wacky = [100, 100, 100];
+//calculating array
+var total = wacky[0] + wacky[1] + wacky[2];
+//total array results.
+var total = total/3
+//alerting the user about results.
+alert(total +"%" + " percent")
+//alerting the user about the results.
+alert("No! You didn't get a choice!")
+//printing results to console.log
+console.log("Grade "+ total +"%");
+
 
 
 
