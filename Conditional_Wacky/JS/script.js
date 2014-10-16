@@ -13,7 +13,7 @@ if(knockKnock === "")
 {
     knockKnock = prompt("Ahem....Knock Knock!");
 }
-console.log(knockKnock)
+    console.log(knockKnock);
 
 alert("Art");
 
@@ -23,13 +23,29 @@ if(knockKnock === "")
 {
     knockKnock = prompt("Its Funny, you know you wanna!");
 }
+    console.log(knockKnock);
+
+alert("R2-D2!")
+
+var knockKnock = prompt("Would you like another joke? \n  YES or NO ");
+var answer;
+    console.log(knockKnock)
+/*
+if(knockKnock === "YES");
+
+{
+    console.log(" Knock, Knock! \n Who's there? \n Yah.\n Yah who \n No Thanks I use Google!");
+
+}*/
+
+answer = (knockKnock === )
 
 
-/*var age = 6;
+/var age = 6;
 var book;
 //If the child is under 10, they get Green Eggs and Ham, Otherwise they get The Time Machine
-/*if(age <10){
- book = "Green Eggs and Ham";
+if(age <10){
+ book = "Green Eggs and Ha
  }else{
  book ="The Time Machine";
  }
