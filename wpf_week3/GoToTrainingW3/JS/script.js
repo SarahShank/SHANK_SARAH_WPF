@@ -42,11 +42,11 @@ if (fruitBowl[1] === "pear"){// is item 2 a pear?
 }
 
 //check item 3 in array
-if(fruitBowl[2] === "pear") {//TRUE?
+if(fruitBowl[2] === "pear"){//TRUE?
 
     numPear++;//add num to pears
 
-}else if(fruitBowl[3] === "peach") {//TRUE?
+}else if(fruitBowl[3] === "peach"){//TRUE?
 
 
     console.log("this is a peach!");//console.log
