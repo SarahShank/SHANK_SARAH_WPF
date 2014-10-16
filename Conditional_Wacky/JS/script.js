@@ -14,6 +14,17 @@ if(knockKnock === "")
     knockKnock = prompt("Ahem....Knock Knock!");
 }
 console.log(knockKnock)
+
+alert("Art");
+
+var knockKnock = prompt ("Go on...Art Who?");
+
+if(knockKnock === "")
+{
+    knockKnock = prompt("Its Funny, you know you wanna!");
+}
+
+
 /*var age = 6;
 var book;
 //If the child is under 10, they get Green Eggs and Ham, Otherwise they get The Time Machine
