@@ -12,7 +12,9 @@ var name = prompt("Please enter your name");
 //prints name console.log
 console.log(name);
 //validating the prompt to see if empty
-
+if(name === ""){//asking to reprompt the user for name if left blank
+    name = prompt("Please enter your name, Do not leave blank");
+}
 //created an array
 var dinnerChoices = ["Mexican", "Italian", "Oriental", "Indian"];
 //console.log array
