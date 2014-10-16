@@ -24,9 +24,9 @@ console.log(dinnerChoices);
 //check how many items are in the array
 console.log(dinnerChoices.length );
 //prompting user for dinner choice
-var dinnerChoices = prompt("Are we having Mexican Italian or Oriental for dinner?")
+var dinnerChoices = prompt("Are we having Mexican, Italian, or Oriental for dinner?");
 //variable
-var dinPlate = [0]
+var dinPlate = [0];
 //if user choose mexican
 if(dinnerChoices[0] === "Mexican"){
 //add one
@@ -59,3 +59,11 @@ if(dinnerChoices[2] === "Oriental"){
 console.log(name + " would like " + dinnerChoices + " for dinner.");
 //alerting user of their final choice
 alert(name + " would like " + dinnerChoices + " for dinner.");
+
+var mex = 13.99;
+var ita = 16.99;
+var ori = 10.99;
+
+mex + ita + ori;
+
+console.log(mex + ita + ori + " total combined prices.");
