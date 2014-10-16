@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d472ba0-121a-4aa0-80ef-3279b9c84f3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditional_Industry/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conditional_Industry/JS/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditional_Industry/JS/script.js" afterPath="$PROJECT_DIR$/Conditional_Industry/JS/script.js" />
     </list>
     <ignored path="SHANK_SARAH_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +24,11 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
+            <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/wpf_week3/GoToTrainingW3/JS/script.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.7297297" vertical-offset="0" max-vertical-offset="1215">
-                    <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                  <state vertical-scroll-proportion="0.22972973" vertical-offset="475" max-vertical-offset="1215">
+                    <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
                     <folding />
                   </state>
                 </provider>
@@ -47,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditional_Industry/JS/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29840848" vertical-offset="0" max-vertical-offset="754">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.1790451" vertical-offset="0" max-vertical-offset="754">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -767,18 +765,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wpf_week3/GoToTrainingW3/JS/script.js">
+    <entry file="file://$PROJECT_DIR$/Conditional_Industry/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7297297" vertical-offset="0" max-vertical-offset="1215">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1790451" vertical-offset="0" max-vertical-offset="754">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditional_Industry/JS/script.js">
+    <entry file="file://$PROJECT_DIR$/wpf_week3/GoToTrainingW3/JS/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29840848" vertical-offset="0" max-vertical-offset="754">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.22972973" vertical-offset="475" max-vertical-offset="1215">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding />
         </state>
       </provider>
