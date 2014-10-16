@@ -1,63 +1,31 @@
 /**
- * Created by SarahShank on 10/15/14.
+ * Created by SarahShank on 10/16/14.
  */
-/*
- Sarah Shank
- WPF WDD144-O Section 01
+/*Sarah Shank
+WPF WDD144-O Section 01
 Conditional_Assignment_Industry Week 3
- 10-15-2014
- */
-//prompting for name
+10-15-2014*/
+
 var name = prompt("Please enter your name");
-//prints name console.log
-console.log(name);
-//validating the prompt to see if empty
-if(name === ""){//asking to reprompt the user for name if left blank
-    name = prompt("Please enter your name, Do not leave blank");
+
+if(name === "")
+{
+    name = prompt("Your name was not captured, Please enter your name")
 }
-console.log(name);
-//created an array
-var dinnerChoices = ["Mexican", "Italian", "Oriental"];
-//console.log array
-console.log(dinnerChoices);
-//check how many items are in the array
-console.log(dinnerChoices.length);
+//console.log(name);
 
-var iWant = 0;
+var myExperience = Number(prompt("Enter your years of computer experience",5));
 
-if (dinnerChoices[0] === "Mexican"){
-
-     iWant++;
-
-}else{
-
-    console.log("Not feeling mexican");
+if (myExperience >= 0 && myExperience <= 10)
+{
+    console.log(name + "'s" + " computer experience is between 0 and 10 years");
+}
+else if((myExperience >=10 && myExperience <=20)|| (myExperience >=20 && myExperience <= 30)) {
+    console.log(name + "'s" + " computer experience is between 10 and 20 years " + " or " + name + "'s" + " computer experience is between 20 and 30 years");
+}
+ else {
+    console.log(name + "'s" + " computer experience is not between 0 and 10 years, " + " nor is it between 10 and 20 years, nor is it between 20 and 30 years.");
 }
 
-if(dinnerChoices[1] === "Italian") {
-
-       iWant++;
-
-}else{
-   console.log("Not feeling italian");
-}
-
-if(dinnerChoices[2] === "Oriental"){
-
-   iWant++;
-
-}else{
-    console.log("Not feeling oriental");
-
-
-if(dinnerChoices[3] === "Indian"){
-
-   iWant++;
-
-    console.log("Not feeling indian");
-
-}
-
-}
- console.log(name  + " wants " + iWant + "for dinner!");
-alert(name  + " wants " + iWant + " for dinner!");
+alert(name + " has " + myExperience + " years of computer experience!");
+console.log(name + " has " + myExperience + " years of computer experience!");
