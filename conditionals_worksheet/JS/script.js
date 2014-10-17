@@ -9,48 +9,40 @@
 //Hot Enough?<br> //Is it hot enough to go to the beach?<br> var temp= 80;<br> //if the temperature is less than 75 to 75<br>      console.log(“We will go to the movies.”);<br> }
 
 var name = prompt("please enter your name");
-if(name === "")
-{
-    name = prompt("Okay Mr. Smith")
+if (name === "") {
+    name = prompt("Okay Mr. Smith");
+
+    console.log(name);
+
 }
-console.log(name)
-
-
 
 var temp = prompt("please enter your current air temperature in degrees celsius or fahrenheit");
 
-if (temp === "celsius" );
+if (temp === "celsius");
 {
     temp = temp + 32;
     temp = temp * (9 / 5);
 
+    alert(name + " then it must be " + temp + " degrees fahrenheit ");
 }
 
-    prompt (name + "then it must be" + temp + "degrees fahrenheit");
-
-
-else{
-
-    (temp === "fahrenheit");
-
+{
+  temp === ("fahrenheit");
 
     temp = temp - 32;
-    temp = temp * (5 / 9);
+    temp = temp * (5/9);
 
-    prompt("then it must be" + temp + "degrees celsius");
-
+    alert("then it must be " + temp + " degrees celsius");
 }
 
-if (temp >= 80 + "fahrenheit" || temp >= 26 + "celsius");{
+if (temp >= 80 + " fahrenheit " || temp >= 26 + " celsius");
+{
+    alert("Yay its warm enough to go to the beach!");
+}
 
-var beach=prompt ("Yay its warm enough to go to the beach!" );
+(temp <= 79 + " fahrenheit " || temp <= 25 + " celsius");
 
-else
-        (temp <= 79 + "fahrenheit" || temp <= 25 + "celsius" );
-
-
-        }
-
-var beach=prompt ("It is too cold to go to the beach!");
-
+{
+    alert("It is too cold to go to the beach!");
+}
 
