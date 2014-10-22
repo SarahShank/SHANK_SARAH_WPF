@@ -8,7 +8,7 @@
 //Exclusive or (XOR)    ^ only one of the pair can be true. either one but not both
 //Not                   ! can be placed to change the out come
 
-/*var budget = 300;
+var budget = 300;
 var iPhonePrice = 100.99;
 var paycheck = 200;
 // if the price of the phone is less than our budget AND if our paycheck is over 300
@@ -23,7 +23,7 @@ if(iPhonePrice < budget && paycheck > 300){
     console.log("No phone for you!!");
 }*/
 
- /* var budget = 100;
+/* var budget = 100;
  var iPhonePrice = 199.99;
  var wonLottery = true;
  // if the price of the phone is less than our budget AND if our paycheck is over 300
