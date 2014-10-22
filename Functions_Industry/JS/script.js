@@ -26,35 +26,22 @@ subscription = (gender >= "MALE") ? "Males magazine subscription" : "Females mag
 //("MALE" > "FEMALE") ? "Males magazine subscription" : "Females magazine subscription";
 console.log(subscription);
 
+var cashFlow = function(budget, annualSubscription, savings){
 
+   var flow = budget + savings - annualSubscription;
+    return flow;
+}
 
-
-
-
-
-/*console.log (gender);
+var a = cashFlow(180.00, 59.99, 120.00);
+console.log(a);
 
 var budget = 180.00;
 var annualSubscription= 59.99;
 var savings = 120.00;
-    if (budget < annualSubscription && savings > 180){
+    if (budget < annualSubscription && savings > 180) {
         console.log(" You can buy the magazine subscription!");
 
+
     }
-}
 
-*/
-
-
-//var age = 6;
-//var book;
-//If the child is under 10, they get Green Eggs and Ham, Otherwise they get The Time Machine
-/* if(age <10){
- book = "Green Eggs and Ham";
- }else{
- book ="The Time Machine";
- }
- console.log(book);*/
-//book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
-//console.log(book);
 
