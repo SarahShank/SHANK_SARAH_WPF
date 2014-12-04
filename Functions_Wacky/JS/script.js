@@ -14,7 +14,7 @@ if(yourFavorite === "STAR WARS"){
     //print to console.log
     console.log("May the force be with you")
 
-}//or if gender is STAR TREK
+}//or if your favorite is STAR TREK
 else if(yourFavorite === "STAR TREK"){
 //print to console.log
     console.log("Live long and prosper");}
@@ -31,7 +31,8 @@ console.log(outcome);
 var yourFavorite = 1000;
 
 do{//printing results to console.log
-    console.log( yourFavorite + " THIS IS AWESOME!!!!...and slightly annoying."); // code will be ran even if the condition is true or false
+    console.log( yourFavorite + " THIS IS AWESOME!!!!...and slightly annoying.");
+    // code will be ran even if the condition is true or false
        yourFavorite--;
 }
 
